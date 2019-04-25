@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding = "UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>El nombre de nuestro feed</title>   
+    <link>Dirección web en la que se encuentre nuestro RSS</link>   <description>Contenido que vas a ofrecer a los usuarios</description>
+    
+    <item>         
+        <title>La NASA registra el primer temblor sísmico en Marte</title>
+        <link>http://www.rtve.es/noticias/20190424/nasa-registra-primer-temblor-sismico-marte/1927441.shtml</link>  
+        <description>Este evento inagura un nuevo cambio de la ciencia: la sismología marciana. La señal ha sido similar a la de los terremotos detectacos en la superficie de la Luna por las misiones Apolo</description>
+    </item>
+    
+    <item>         
+        <title>Japón lanza un proyectil sobre la superficie del asteroide Ryugu</title>         
+        <link>https://www.abc.es/ciencia/abci-japon-lanza-proyectil-sobre-superficie-asteroide-ryugu-201904231726_video.html</link>   
+        <description>El objetivo de la misión era levantar polvo de la roca para recoger muestras que próximamente llegarán a la Tierra para ser analizadas</description>   
+    </item>
+    
+    <item>         
+        <title>Huawei presenta en España su smartphone P30 lite</title>         
+        <link>https://www.larazon.es/tecnologia/huawei-presenta-en-espana-su-smartphone-p30-lite-KD23028255</link>   
+        <description>Se venderá a partir del mes de de mayo por 349 euros</description>   
+    </item>
+    
+    <item>         
+        <title>Katie Bouman, la joven genio que ideó la primera imagen de un agujero negro</title>         
+        <link>https://www.elperiodico.com/es/ciencia/20190411/katie-bouman-primera-imagen-de-un-agujero-negro-7402218</link>
+        <description>La investigadora de 29 años creó el algoritmo que permitió obtener la foto</description>   
+    </item>
+    
+    <item>         
+        <title>Científicos israelíes crean el primer corazón en 3D con tejido humano</title> 
+        <link>https://es.euronews.com/2019/04/15/cientificos-israelies-crean-el-primer-corazon-en-3d-con-tejido-humano</link>  
+        <description>Investigadores de la Universidad de Tel Aviv han producido un corazón vivo que palpita utilizando tejido humano y una impresora 3D</description>   
+    </item>
+    
+    <item>         
+        <title>ASUS Zephyrus M y Zephyrus S: así son estos dos nuevos portátiles gaming ultrafinos </title>         
+        <link>https://computerhoy.com/noticias/tecnologia/asus-zephyrus-m-zephyrus-s-son-estos-dos-nuevos-portatiles-gaming-ultrafinos-411023</link>   
+        <description>ASUS, una de las marcas más reconocibles dentro del mundo del gaming, acaba de dar un paso adelante de cara a lo que queda de 2019. Lo ha hecho con dos nuevos portátiles dentro de su línea ROG (Republic of Gamers) que consolidan la apuesta de prácticamente todas las marcas: más potencia dentro de diseños más compactos.</description>   
+    </item>
+    
+    <item>         
+        <title>Un meteorito provoca una enorme explosión sobre el mar de Bering</title>         
+        <link>https://www.nationalgeographic.es/espacio/2019/03/un-mteorito-provoca-una-enorme-explosion-sobre-el-mar-de-bering</link>   
+        <description>El pasado 18 de diciembre, diez metros de roca recorrieron la atmósfera a 32 kilómetros por segundo, liberando una energía diez veces mayor que la bomba de Hiroshima. </description>   
+    </item>
+    
+</channel>
+</rss>
