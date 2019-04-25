@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding = "UTF-8"?>
 <rss version="2.0">
 <channel>
-    <title>El nombre de nuestro feed</title>   
-    <link>Dirección web en la que se encuentre nuestro RSS</link>   <description>Contenido que vas a ofrecer a los usuarios</description>
+    <title>Mi RSS</title>   
+    <link>https://grieff.github.io/RSS.xml</link>   
+    <description>Noticias de actualidad</description>
     
     <item>         
         <title>La NASA registra el primer temblor sísmico en Marte</title>
