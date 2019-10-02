@@ -1,14 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-    <head>
-    <link rel="alternate" type="application/rss+xml" title="PAC FEED" href="https://http://grieff.github.io/RSS.xml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | Verónica Conde Alfaro</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/2ea5a192e4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="cards.css">
 </head>
 
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Portfolio</td>
+                <td id="navigation">
+                    <a href="#work">work</a>
+                    <a href="#bio">about</a>
+                    <a href="#contact">contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>Verónica Conde Alfaro</h1>
+                <h2>Web Development Student</h2>
+                <button class="btn_one"> <a id="hire" href="#contact">Hire Me</a></button><br>
 
-    <body>
-        <h1> grieff.github.io</h1>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+    <div id="work">
+        <h1>work</h1>
+        <!-- Proyectos  -->
 
-        <a href="https://grieff.github.io/RSS.xml"><img src=https://i2.wp.com/www.infotecarios.com/wp-content/uploads/RSS.png?w=200 width="75"></a>
-    </body>
+        <div class="wrap">
+
+            <!-- PONG -->
+            <div class="tile">
+                <img src='https://i.imgur.com/5PFtiDh.png' />
+                <div class="text">
+                    <h1>Pong Game</h1>
+                    <h2 class="animate-text">Classic Pong Game created using turtle module in Python 3.</h2>
+                    <p class="animate-text">Allows a 2-player game, using ws for the left player and the arrows for the right player, with a score counting for each player. </p>
+                    <button class="btn_card btn_one animate-text"> <a href="https://github.com/grieff/pong-game"
+                            class="preview">SOURCE CODE</a></button>
+                </div>
+            </div>
+
+            <!-- WEATHER API  -->
+            <div class="tile">
+                <img src='https://i.imgur.com/hhRoL0m.png' />
+                <div class="text">
+                    <h1>Weather App</h1>
+                    <h2 class="animate-text">A Vanilla JavaScript Weather Application using the Dark Sky API.</h2>
+                    <p class="animate-text">It gives the current temperature (in F and C), a weather glymp and a little summary of the current weather at your location. If not given permission to use your location, it will not display any data.</p>
+                    <button class="btn_card btn_one animate-text"> <a href="https://grieff.github.io/weather-app/"
+                            class="preview">PREVIEW</a></button>
+
+                </div>
+            </div>
+
+            <!-- TO DO APP -->
+            <div class="tile">
+                <img src='https://i.imgur.com/XEbEhY7.png' />
+                <div class="text">
+                    <h1 class="dark">ToDo App</h1>
+                    <h2 class="animate-text">To Do App created using Vanilla JavaScript .</h2>
+                    <p class="animate-text">Simple to do app that allows to create new task, checked them and delete them. It also shows today's date and includes a button to clear all the tasks. </p>
+                    <button class="btn_card btn_one animate-text"> <a
+                            href="https://grieff.github.io/js-todo/" class="preview">PREVIEW</a></button>
+
+                </div>
+            </div>
+
+
+            <div class="tile">
+                <img src='https://i.imgur.com/CD3BRq8.png' />
+                <div class="text">
+                    <h1 class="dark">Calculator</h1>
+                    <h2 class="animate-text">Calculator created using Vanilla JavaScript </h2>
+                    <p class="animate-text">Simple calculator that performs the four basic mathematical operations: addition, subtraction, multiplication and division.</p>
+                    <button class="btn_card btn_one animate-text"> <a href="https://grieff.github.io/js-calculator/"
+                            class="preview">PREVIEW</a></button>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div id="bio">
+        <h1>about</h1>
+        <p>
+            I'm Veronica, a web development student based in Spain that has enthusiasm for design and interactive interfaces. I'm currently in my second year of vocational training in web development.
+        </p>
+        <p>
+            <h2>Skills</h2>
+            <div class="skills">
+
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-bootstrap"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-python"></i>
+            </div>
+
+        </p>
+    </div>
+    <div id="contact">
+        <h1>contact</h1>
+
+        <div class="contact-grid inner_div">
+            <div class="phone"><i class="fas fa-phone"></i> &nbsp; +34 663 508 373</div>
+            <div class="email"><i class="fas fa-at"></i> &nbsp; veronica.conde@outlook.com</div>
+
+            <div class="github"><i class="fab fa-github"></i>&nbsp; <a href="https://github.com/grieff/">@grieff</a>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            Verónica Conde Alfaro - 2019<br> <a href="https://grieff.github.io">grieff</a>
+        </div>
+        <script src="index.js" type="text/javascript"></script>
+</body>
+
 </html>
