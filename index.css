@@ -500,7 +500,7 @@ button:focus {
 @media (max-width: 600px) {
     .contact-grid {
         width: 50%;
-        font-size: 0.8em;
+        font-size: 0.9em;
         justify-content: space-around;
         align-items: center;
         text-align: center;
@@ -510,12 +510,12 @@ button:focus {
 @media (max-width: 400px) {
     .contact-grid {
         width: 25%;
-        font-size: 0.75em;
+        font-size: 0.9em;
         height: 50%;
         display: flex;
-        flex-flow: column wrap;
-        justify-content: space-around;
-        align-items: center;
+        flex-flow: row wrap;
+        justify-content: center;
         text-align: center;
+        padding-left: 45px;
     }
 }
